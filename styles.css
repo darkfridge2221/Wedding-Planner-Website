@@ -1,0 +1,204 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: url('banner.png') fixed center;
+    background-color: #e5e4e2;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: left;
+    margin-bottom: 20px;
+    background-image: url('logo.png'); 
+    background-repeat: no-repeat;
+    background-size: 350px; 
+    background-position: left center; 
+    padding-left: 350px; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 30px;
+    margin-right: 10px; 
+    min-width: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.fade{
+    animation: fadeInAnimation 4s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container { 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0 , 0.6);
+    color: #bc9f6c;
+    border-radius: 10px; 
+}
+
+h1 {
+    text-align: center;
+    color: #bc9f6c;
+}
+
+.total-price {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto; 
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #3333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.gap {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    margin-top: 5px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.accommodation {
+    border: 1px solid #ccc;
+    color: #bcade0;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.central-plaza {
+    background-image: url('centralplaza.png');
+}
+
+.pacific-towers-hotel {
+    background-image: url('pacifictowers.png');
+}
+
+.sky-center-complex {
+    background-image: url('skycenter.png');
+}
+
+.sea-view-tavern {
+    background-image: url('tavern.png');
+}
+
+.ashby-castle {
+    background-image: url('castle.png');
+}
+
+.fawlty-towers {
+    background-image: url('fawltytowers.png');
+}
+
+.hilltop-mansion {
+    background-image: url('hilltopmansion.png');
+}
+
+.haslegrave-hotel {
+    background-image: url('hotel.png');
+}
+
+.forest-inn {
+    background-image: url('forestinn.png');
+}
+
+.southwestern-estate {
+    background-image: url('southwestern.png');
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.stars {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review {
+    font-style: italic;
+    color: #666;
+}
